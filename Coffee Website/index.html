@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COFFEETERIA - The Coffee Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="phone.css">
+    
+</head>
+
+<body style="background-color: rgb(30, 5, 5);">
+
+    <nav id="navbar">
+        <div id="logo">
+            <img src="coffee-shop logo.png" alt="COFFEETERIA">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#menu">Menu</a></li>
+            <li class="item"><a href="#order">Your Order</a></li>
+            <li class="item"><a href="#about">About Us</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+        </ul>
+
+    </nav>
+    <section id="home">
+        <br>
+        <br>
+        <br>
+        <h1 class="primary">Welcome to COFFEETERIA</h1>
+        <br>
+        <br>
+        <p>Hello Consumer, you are heartly welcome to The COFFEETERIA.</p>
+        <p>You can order your Joe from the given menu or by your preference from the button below.</p>
+        <br>
+        <button class="btn"> <a href="#order">Order Now</a> </button>
+    </section>
+    
+    <section id="menu">
+        <br>
+        <br>
+        <br>
+        <h1 class="secondary">Menu</h1>
+        <div class="column">
+
+            <!-- <li>Espresso .........         5$</li>
+            <li>Mocha    .........       7$</li>
+            <li>Americano    .........       10$</li>
+            <li>Cappuccino  .........         8$</li>
+            <li>Latte       .........    9$</li>
+            <li>Instant Coffee     .........      4$</li> -->
+            
+            <!-- TABLE -->
+
+            <table>
+                <tr>
+                  <th style="color: rgb(50, 15, 15);">Coffee Type</th>
+                  <th style="color: rgb(50, 15, 15);">Price</th>
+                  <th style="color: rgb(50, 15, 15);">Review (out of 5)</th>
+                </tr>
+               
+                <tr>
+                    <td> <a style="text-decoration: none;" href="https://i0.wp.com/gatherforbread.com/wp-content/uploads/2014/10/Dark-Chocolate-Mocha-Square.jpg?fit=1000%2C1000&ssl=1">Mocha</a></td>
+                    <td>5$</td>
+                    <td>4.5</td>
+                  </tr>
+                
+                <tr>
+                  <td> <a style="text-decoration: none;" href="https://izzycooking.com/wp-content/uploads/2022/09/Americano-Coffee-thmbnail.jpg">Americano</a> </td>
+                  <td>7$</td>
+                  <td>4.3</td>
+                </tr>
+                <tr>
+                    <td>  <a style="text-decoration: none;" href="https://upload.wikimedia.org/wikipedia/commons/c/c8/Cappuccino_at_Sightglass_Coffee.jpg">Cappuccino</a></td>
+                    <td>8$</td>
+                    <td>5.0</td>
+                  </tr>
+                  <tr>
+                    <td> <a style="text-decoration: none;" href="https://www.allrecipes.com/thmb/Wh0Qnynwdxok4oN0NZ1Lz-wl0A8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9428203-9d140a4ed1424824a7ddd358e6161473.jpg">Latte</a></td>
+                    <td>4$</td>
+                    <td>4.0</td>
+                  </tr>
+                  <tr>
+                    <td> <a style="text-decoration: none;" href="https://www.archanaskitchen.com/images/archanaskitchen/Indian_Beverages/Coffee_Recipe_With_Instant_Coffee_Powder.jpg">Instant Coffee</a></td>
+                    <td>3$</td>
+                    <td>4.5</td>
+                  </tr>
+                  
+              </table>
+
+        </div>
+
+    </section>
+
+    <section id="order">
+        <br>
+        <br>
+        <br>
+        <h1 class="third">Your Order</h1>
+<br>
+<br>
+
+
+        <!-- <div>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Submit">
+              </form>
+              
+        </div> -->
+        <div class="order-section">
+            <h2>Place Your Order</h2>
+            <br>
+            <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name"><br><br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email"><br><br>
+              <label for="product">Product:</label>
+              <select id="product" name="product">
+                <option value="product1">Mocha</option>
+
+                <option value="product2">Americano</option>
+                <option value="product3">Cappuccino</option>
+                <option value="product4">Latte</option>
+                <option value="product5">Instant Coffee</option>
+              </select><br><br>
+              <label for="quantity">Quantity:</label>
+              <input type="number" id="quantity" name="quantity"><br><br>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message"></textarea><br><br>
+              <input type="submit" value="Place Order">
+            </form>
+          </div>
+          
+
+
+    </section>
+
+    <section id="about">
+        <h1>About Us</h1>
+        <br>
+        <br>
+        <p>We are a company that specializes in providing high-quality products and exceptional customer service. Our team is made up of dedicated professionals who are passionate about what we do and committed to delivering the best possible experience to our customers.</p>
+        <p>At our company, we believe in putting our customers first. We understand that without our customers, we wouldn't be where we are today. That's why we go above and beyond to ensure that every customer is satisfied with their experience with us.</p>
+        <p>If you have any questions or concerns, please don't hesitate to contact us. We're here to help and we're always happy to hear from our customers.</p>
+      </section>
+      
+      <section id="contact">
+        <h1>Contact Us</h1>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea><br><br>
+          <input type="submit" value="SEND">
+        </form>
+        <br>
+        <br>
+        <div class="contact-info">
+          <h3>Our Location</h3>
+          <p>Rajpath<br>New Delhi, INDIA</p>
+          <h3>Phone Number</h3>
+          <p>9857456212</p>
+          <h3>Email Address</h3>
+          <p>coffeeteria@gmail.com</p>
+        </div>
+      </section>
+      
+
+</body>
+
+</html>
